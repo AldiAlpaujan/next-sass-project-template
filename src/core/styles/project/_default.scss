@@ -6,7 +6,7 @@ body {
 	font-family: ff(family-main);
 	font-weight: fw(regular);
 	background-color: color(white);
-	color: color(black, 2);
+	color: color(black);
 	@include font-size(16);
 
 	&.rm-scroll {
