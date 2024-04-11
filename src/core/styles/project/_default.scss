@@ -8,11 +8,14 @@ body {
 	background-color: color(white);
 	color: color(black, 2);
 	@include font-size(16);
+
 	&.rm-scroll {
 		overflow: hidden;
 		touch-action: none;
 	}
+
 	&.hold-transition {
+
 		*,
 		*::before,
 		*::after {
